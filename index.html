@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Medicamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Medicamentos</h1>
+        <form id="medication-form">
+            <input type="text" id="med-name" placeholder="Nome do Medicamento" required>
+            <input type="number" id="dosage" placeholder="Dosagem (mg)" required>
+            <input type="time" id="time" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <table id="medication-table">
+            <thead>
+                <tr>
+                    <th>Medicamento</th>
+                    <th>Dosagem</th>
+                    <th>Horário</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
